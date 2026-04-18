@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+padding: 0px;
+
+}
+
+h1{
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 5rem;
+    margin-top: 30px;
+    display: block;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  background-size:cover;
+  border-radius: 50%;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  
+  
+}
+.choice:hover{
+    background-color:rgb(101, 101, 71);
+    cursor: pointer;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+      gap: 40px;
+}
+
+.scores{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 45px;
+}
+#movediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* #move{
+    padding: 10px 20px;
+    margin-top: 20px;
+    line-height: 3rem;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+    min-width: 150px;
+   
+   
+    border-radius: 5px;
+} */
+#move {
+  display: inline-block; /* inline positioning + block styling */
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  min-width: 200px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
